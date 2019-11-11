@@ -1,5 +1,4 @@
-* Create the `burgers_db`.
-
+-- * Create the `burgers_db`.
 DROP IF EXISTS burgers_db;
 
 CREATE DATABASE burgers_db;
