@@ -17,13 +17,13 @@ router.get("/", function(req, res) {
       console.log(hbsObject);
       res.render("index", hbsObject);
     });
-  });
-  
-  router.post("/api/burgers", function(req, res) {
+});
+
+router.post("/api/burgers", function(req, res) {
     burger.create([
-      "burger_name", "devoured"
+      "burger_name"
     ], [
-      req.body.name, req.body.devoured
+      req.body.name
     ], function(result) {
       // Send back the ID of the new quote
       res.json({ id: result.insertId });
