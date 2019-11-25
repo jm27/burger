@@ -4,14 +4,14 @@ $(function() {
       var id = $(this).data("id");
       var newState = $(this).data("devoured");
   
-    //   var newState = {
-    //     devoured: newState
-    //   };
+      var newBurgerState = {
+        devoured: newState
+      };
   
       // Send the PUT request.
       $.ajax("/api/burgers/" + id, {
         type: "PUT",
-        data: newState
+        data: newBurgerState
       }).then(
         function() {
           console.log("changed devoured to", newState);
