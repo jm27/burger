@@ -5,7 +5,7 @@ $(function () {
     var newState = $(this).data("newstate");
     let devour;
     console.log(id, newState);
-
+    // Change Devoured if true to false, if false to true
     if (newState == 1) {
       devour = false;
     } else {
