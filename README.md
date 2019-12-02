@@ -11,10 +11,6 @@
 [Burger-APP HEROKU LINK](https://burger-app-jm27.herokuapp.com/ "Homepage")
 ======
 
-### Prerequisites
-First in order to run the app you must be sure that you have installed the node modules and dependencies that are needed to run the app.
-
-
 ## Built With
 
 * HTML.
