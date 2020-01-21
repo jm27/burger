@@ -18,6 +18,7 @@
 * BOOTSTRAP.
 * JAVASCRIPT.
 * JQUERY.
+* SQL Database.
 * NPM('express','express-handlebars','mysql').
 
 ## Versioning
