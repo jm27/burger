@@ -40,10 +40,10 @@ npm start
 ## Demo
 There is a demo of this app available on Heroku. You can interact with the app and see the full functionality. Some examples of the app's functionality:
 
-# Add a burger in the input text box and click 'add a burger'. The new burger will be inserted into the database via a POST request and the page will refresh and show the new burger under the "Waiting to be Eaten" column.
-# For a burger in the "Waiting to be Eaten" column, click on the button 'Devour'. This will "eat the burger" and move it to the "Devoured" column. Behind the scenes, the entry in the database will be updated to indicate it was eaten by a PUT request to the burgers API.
-# For a burger in the "Devoured" column, click on the button 'Waiting'. This will move it back to the "Waiting to be eaten" column. The entry for this burger will be updated in the database using a PUT request.
-# For either column, click on the 'Delete'. That will remove it from the page and also its entry from the database using a DELETE request.
+* Add a burger in the input text box and click 'add a burger'. The new burger will be inserted into the database via a POST request and the page will refresh and show the new burger under the "Waiting to be Eaten" column.
+* For a burger in the "Waiting to be Eaten" column, click on the button 'Devour'. This will "eat the burger" and move it to the "Devoured" column. Behind the scenes, the entry in the database will be updated to indicate it was eaten by a PUT request to the burgers API.
+* For a burger in the "Devoured" column, click on the button 'Waiting'. This will move it back to the "Waiting to be eaten" column. The entry for this burger will be updated in the database using a PUT request.
+* For either column, click on the 'Delete'. That will remove it from the page and also its entry from the database using a DELETE request.
 
 ## Visit Demo Site
 
