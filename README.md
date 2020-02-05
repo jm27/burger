@@ -47,9 +47,6 @@ There is a demo of this app available on Heroku. You can interact with the app a
 
 ## Visit Demo Site
 
-[Burger-APP GITHUB LINK](https://github.com/jm27/burger "Homepage")
-======
-
 [Burger-APP HEROKU LINK](https://burger-app-jm27.herokuapp.com/ "Homepage")
 ======
 
