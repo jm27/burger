@@ -38,6 +38,9 @@ There is a start script in the package.json file that starts up the server and c
 npm start
 
 ## Demo
+
+![Homepage](Eat-Da-Burger-Demo.gif)
+
 There is a demo of this app available on Heroku. You can interact with the app and see the full functionality. Some examples of the app's functionality:
 
 * Add a burger in the input text box and click 'add a burger'. The new burger will be inserted into the database via a POST request and the page will refresh and show the new burger under the "Waiting to be Eaten" column.
